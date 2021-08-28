@@ -16,16 +16,16 @@ minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale: "en-US"
-title: "Eskinasy Notes | Pat Eskinasy Writings"
-title_separator: "-"
+title: "Katherine's Code Snippets"
+title_separator: "|"
 subtitle: # site tagline that appears below site title in masthead
-name: "Pat Eskinasy"
-description: "A few of my favourite things. Decentralized, Distributed and Federated systems | Open Source Software | Digital Privacy | Artificial Intelligence | Product Development | Software Development | Cryptocurrency | Data Science | Product Management | InfoSec | Leadership | Decentralized Governance | Supply Chains | Ethical Design | Economics | Economic Empowerment | Plant-Based Lifestyle | Yoga | Woodlands | Trees | Jogging | Venture Capital | Capital Markets | Startups | Mandarin."
-url: https://www.eskinasy.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name: "Katherine C."
+description: "Code Snippets and Review Materials"
+url: https://katgec1402.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: pateskinasy/pateskinasy.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: /assets/images/interface.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: /assets/images/logo.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+repository: katgec1402/katgec1402.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: /assets/images/teaser.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: /assets/images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: " " # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
@@ -61,61 +61,59 @@ staticman:
         format: # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint: # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey: "6LfPykwUAAAAABh2PsHzcHLRKGvfMUIiHOf-kRYH"
-  secret: "yTL4Wi/1qmLhLbPEzBNBVvQ7LYHwG//607P9IDhY/T7UWwwuA+oN5BSihpFcbkY4ADbuqZgXL0HtWwX1HnZiTmh/as28BTbkQ/qdLGdukpciHuzoftXEK7s7fCGtkkF9vF0d0dTYznlV7NwM7FZrc8HeDsZ0K2YdUPANwwnLQzY="
+  # siteKey: "6LfPykwUAAAAABh2PsHzcHLRKGvfMUIiHOf-kRYH"
+  # secret: "yTL4Wi/1qmLhLbPEzBNBVvQ7LYHwG//607P9IDhY/T7UWwwuA+oN5BSihpFcbkY4ADbuqZgXL0HtWwX1HnZiTmh/as28BTbkQ/qdLGdukpciHuzoftXEK7s7fCGtkkF9vF0d0dTYznlV7NwM7FZrc8HeDsZ0K2YdUPANwwnLQzY="
 atom_feed:
   path: # blank (default) uses feed.xml
 search: true #false (default)
-search_full_content: true #false (default)
-search_provider: algolia # lunr (default), algolia, google
+# search_full_content: true #false (default)
+# search_provider: algolia # lunr (default), algolia, google
 algolia:
-  application_id: OBNLJ1YKNJ # YOUR_APPLICATION_ID
-  index_name: blog # YOUR_INDEX_NAME
-  search_only_api_key: 22b7cff334143c6a193da680cf1c8f7c # YOUR_SEARCH_ONLY_API_KEY
+  # application_id: OBNLJ1YKNJ # YOUR_APPLICATION_ID
+  # index_name: blog # YOUR_INDEX_NAME
+  # search_only_api_key: 22b7cff334143c6a193da680cf1c8f7c # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 google:
   search_engine_id: # YOUR_SEARCH_ENGINE_ID
   instant_search: # false (default), true
 # SEO Related
-google_site_verification: jx8Y8WqtwyrW_sAdLoC96jZBbNdhIaJr6rQuv4mBJQ8
+# google_site_verification: jx8Y8WqtwyrW_sAdLoC96jZBbNdhIaJr6rQuv4mBJQ8
 bing_site_verification:
 yandex_site_verification:
 naver_site_verification:
 
 # Social Sharing
 twitter:
-  username: celue
+  username:
 facebook:
   username:
   app_id:
   publisher:
-og_image: /assets/images/interface.jpg # Open Graph/Twitter default site image
+og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type: # Person or Organization (defaults to Person)
   name: # If the user or organization name differs from the site's name
   links:
-    - "https://www.twitter.com/celue"
-    - "https://www.linkedin.com/in/pateskinasy"
-    - "https://medium.com/@celue"
-    - "https://github.com/pateskinasy"
+    # - "https://www.linkedin.com/"
+    - "https://github.com/katgec1402"
   # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider: custom # false (default), "google", "google-universal", "custom"
+  # provider: custom # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: UA-121086418-1
+    tracking_id:
     anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name: "Pat Eskinasy"
-  avatar: "https://ik.imagekit.io/214u6evjbiyb9/image1__1__HJ1gMcnXV.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Now: Own projects, Past: B2B deep tech. | Engineer | Economist | 🌱| ॐ"
-  location: " :gb:  :sweden:  :brazil: "
-  email:
+  name: "Katherine C"
+  avatar: /assets/images/avatar.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "🤍🐶🐬✨🍑🥑⛸🎼🚕✈️🎢"
+  location: " Austin, TX | Seoul, Korea "
+  email: katgec1402@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -125,38 +123,35 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/celue"
+      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/pateskinasy"
+      url: "https://github.com/katgec1402"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-#     - label: "Medium"
-#       icon: "fab fa-fw fa-medium"
-#       url: "https://www.medium.com/@celue/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/pateskinasy/"
+      # url: "https://www.linkedin.com/"
     - label: "Newsletter"
       icon: "far fa-newspaper"
-      url: "https://upscri.be/611534/"
+      # url: "https://upscri.be/number/"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/celue"
+      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/pateskinasy"
+      url: "https://github.com/katgec1402"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -166,15 +161,12 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-#     - label: "Medium"
-#       icon: "fab fa-fw fa-medium"
-#       url: "https://www.medium.com/@celue/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/pateskinasy/"
+      # url: "https://www.linkedin.com/"
     - label: "Newsletter"
       icon: "far fa-newspaper"
-      url: "https://upscri.be/611534/"
+      # url: "https://upscri.be//"
 
 # Reading Files
 include:

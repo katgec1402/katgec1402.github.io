@@ -1,6 +1,7 @@
 Jekyll Powered site
 
 Stack is:
+
 - Jekyll
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) - Michael Rose
 - Github Pages
@@ -13,5 +14,3 @@ Stack is:
 - Prose.io
 - Google Analytics
 - Font Awesome
-
-<a href="https://www.buymeacoffee.com/experienceconomy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee" width=150rem ></a>
